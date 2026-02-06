@@ -4,14 +4,13 @@ class Student {
     String name;
     int rollNo;
 
-    Student(String name,int rollNo) 
-    {
-        this.name=name;
-        this.rollNo=rollNo;    
+    Student(String name, int rollNo) {
+        this.name = name;
+        this.rollNo = rollNo;
     }
-    void printdetails(){
-        System.out.println("Name: "+name+"RollNo: "+rollNo);
 
+    void printdetails() {
+        System.out.println("Name: " + name + " Roll: " + rollNo);
     }
 }
 
@@ -22,7 +21,7 @@ public class StudentClass {
         String name1 = sc.nextLine();
         int rollNo1 = sc.nextInt();
         sc.nextLine();
-        
+
         String name2 = sc.nextLine();
         int rollNo2 = sc.nextInt();
 
@@ -31,8 +30,7 @@ public class StudentClass {
 
         s1.printdetails();
         s2.printdetails();
+
+        sc.close();
     }
 }
-  
-    
-
